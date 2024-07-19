@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px 10px;
+    background:#ccd3f3;
+    box-shadow: 0 5px  10px rgba(0,0,0,0.06);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color:#1a1a1a;
+    transition: 0.3s ease;
+
+}
